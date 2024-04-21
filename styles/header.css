@@ -1,0 +1,63 @@
+.cabecalho-menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../assets//Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container-imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width:60vw;
+}
+
+/* Ao marcar o checkbox o elemento é revelado. (~) - Se o elemento anterior tiver sido marcado o o Css irá buscar o elemento seguinte. */
+.container-botao:checked~.lista-menu {
+    display: block;
+}
+
+
+.lista-menu-titulo,
+.lista-menu-item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu-titulo {
+    color: var(--laranja);
+    font-size: 1em;
+    font-weight: 800;
+    font-family: var(--fonte-poppins);
+}
+
+.lista-menu-link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-background-clip:transparent;
+    background-clip: text;
+    font-size: 1em;
+    font-family: var(--fonte-poppins);
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+}
