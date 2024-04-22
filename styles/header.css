@@ -55,9 +55,10 @@
     -webkit-background-clip: text;
     -webkit-background-clip:transparent;
     background-clip: text;
-    font-size: 1em;
-    font-family: var(--fonte-poppins);
-    font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.container-botao {
+    display: none;
 }

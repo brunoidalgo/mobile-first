@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="./assets/AluraBooks.svg" type="image/x-icon">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>AluraBooks</title>
 </head>
 
@@ -20,19 +21,19 @@
             <ul class="lista-menu">
                 <li class="lista-menu-titulo">Categorias</li>
                 <li class="lista-menu-item">
-                    <a href="#" class="lista-menu-link">PROGRAMAÇÃO</a>
+                    <a href="#" class="lista-menu-link">Programação</a>
                 </li>
                 <li class="lista-menu-item">
-                    <a href="#" class="lista-menu-link">FRONT-END</a>
+                    <a href="#" class="lista-menu-link">Front-End</a>
                 </li>
                 <li class="lista-menu-item">
-                    <a href="#" class="lista-menu-link">INFRAESTRUTURA</a>
+                    <a href="#" class="lista-menu-link">Infraestrutura</a>
                 </li>
                 <li class="lista-menu-item">
-                    <a href="#" class="lista-menu-link">BUSINESS</a>
+                    <a href="#" class="lista-menu-link">Business</a>
                 </li>
                 <li class="lista-menu-item">
-                    <a href="#" class="lista-menu-link">DESIGN & UX</a>
+                    <a href="#" class="lista-menu-link">Design & UX</a>
                 </li>
             </ul>
             <img src="./assets/Logo.svg" alt="icone alura books" class="container-imagem">
@@ -40,9 +41,47 @@
         <div class="container">
             <a href="#"><img src="./assets/Favoritos.svg" alt="icone de Favoritos" class="container-imagem"></a>
             <a href="#"><img src="./assets/Compras.svg" alt="icone de Favoritos" class="container-imagem"></a>
-            <a href="#" ><img src="./assets/Usuario.svg" alt="icone de Favoritos" class="container-imagem"></a>
+            <a href="#"><img src="./assets/Usuario.svg" alt="icone de Favoritos" class="container-imagem"></a>
         </div>
     </header>
+    <section class="banner">
+        <h2 class="banner-titulo">Já sabe por onde começar?</h2>
+        <p class="banner-texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner-pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel-titulo">Novos lançamentos</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            
+            <!-- Additional required wrapper -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./assets/ApacheKafka.svg" alt="imagem livro kafka e spring boot"></div>
+                <div class="swiper-slide"><img src="./assets/Lideranca.svg" alt="imagem de livro sobre lideranca"></div>
+                <div class="swiper-slide"><img src="./assets/Javascript.svg" alt="imagem de livro sobre JavasScript"></div>
+                <div class="swiper-slide"><img src="./assets/Guia Front-end.svg" alt="imagem de livro sobre Front-End"></div>
+                <div class="swiper-slide"><img src="./assets/Portugol.svg" alt="imagem de livro sobre Portugol"></div>
+                <div class="swiper-slide"><img src="./assets/Acessibilidade.svg" alt="imagem de livro sobre Acessibilidade"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+    const swiper = new Swiper('.swiper', {
+        // If we need pagination
+        slidesPerView: 3,
+        spaceBetween: 10,
+        pagination: {
+          el: '.swiper-pagination',
+          type:'bullets'
+        },
+      });
+      </script>
 </body>
 
 </html>
