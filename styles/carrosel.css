@@ -1,3 +1,5 @@
+/* Ultimos lançamentos */
+
 .carrossel-titulo {
     color: var(--laranja);
     background-color: var(--branco);
@@ -7,15 +9,61 @@
     font-family: var(--fonte-poppins);
     text-align: center;
     padding: 1em 0 0.5em 0;
+    margin-bottom: 1em;
 }
 
 .swiper-slide img {
     width: 100%;
 }
 
-.swiper-pagination ,
-.swiper-pagination-bullets,
-.swiper-pagination-horizontal {
-    position:initial;
+.card-descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.descricao-titulo {
+    padding-top: 0.5em;
+    font-weight: 700;
+    color: var(--laranja);
+}
+
+.descricao-titulo-livro {
+    color: var(--azul-escuro);
+    font-weight: 700;
     margin: 0.5em 0;
+}
+
+.descricao-texto {
+    font-size: 14px;
+}
+
+.card-botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.botoes-item {
+    margin: 0.5em;
+}
+
+.botoes-ancora {
+    padding: 1em 2.2em;
+    background-color: var(--laranja);
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 700;
+    font-family: var(--fonte-poppins);
 }
