@@ -62,3 +62,33 @@
 .container-botao {
     display: none;
 }
+
+
+
+@media screen and (min-width: 1024px) {
+    .lista-menu-titulo{
+    padding: 1em;
+    background-color: var(--branco);
+    font-size: 36px;
+    font-weight: 700;
+    }
+
+    .container-menu {
+        display: flex;
+        gap: 2em;
+        padding-left: 4em;
+    }
+
+    .container-menu-item {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: 500;
+    }
+
+    .container-titulo {
+        font-family: var(--fonte-josefin);
+        font-size: 1.9em;
+    }
+    
+}

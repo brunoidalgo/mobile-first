@@ -29,12 +29,12 @@
 
 ### Aula 3
 
-* Afastar elementos dos cantos da tela e de outros elementos;
-* A diferença entre margin e padding;
-* Diversas maneiras de determinar os valores e as direções das margens dentro da propriedade margin;
-* Construir uma nova section;
-* Reutilizar estilos através das classes dentro da nova section;
-* Atribuir mais de uma classe nos elementos para incluir novas estilizações além das existentes.
+* Aplicar plugins externos através de CDN;
+* Utilizar o plugin SwiperJS;
+* Reforçar o aprendizado de flexbox;
+* Reutilizar elementos e estilos;
+* Criar listas;
+* Editar input e seu placeholder.
 
 ### Aula 4
 
