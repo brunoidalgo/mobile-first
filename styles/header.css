@@ -29,6 +29,7 @@
     position: absolute;
     top: 100%;
     width:60vw;
+    z-index: 2;
 }
 
 /* Ao marcar o checkbox o elemento é revelado. (~) - Se o elemento anterior tiver sido marcado o o Css irá buscar o elemento seguinte. */
