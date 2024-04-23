@@ -39,23 +39,38 @@
             <img src="./assets/Logo.svg" alt="icone alura books" class="container-imagem">
             <h1 class="container-titulo"><b class="container-titulo-negrito">Alura</b>Books</h1>
         </div>
-                <ul class="opcoes">
-                    <li class="opcoes-item">
-                        <a href="#" class="opcoes-link">Categoria</a>
-                    </li>
-                    <li class="opcoes-item">
-                        <a href="#" class="opcoes-link">Favoritos</a>
-                    </li>
-                    <li class="opcoes-item">
-                        <a href="#" class="opcoes-link">Minha Estante</a>
-                    </li>
-                </ul>
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes-botao">
+            <label for="opcoes-menu">
+                <li class="opcoes-item">Categoria</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Programação</a>
+                </li>
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Front-End</a>
+                </li>
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Business</a>
+                </li>
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Design & UX</a>
+                </li>
+            </ul>
+            <li class="opcoes-item">Favoritos</li>
+            <li class="opcoes-item">Minha Estante</li>
+        </ul>
 
-                <div class="container">
-                    <a href="#"><img src="./assets/Favoritos.svg" alt="icone de Favoritos" class="container-imagem container-imagem-transparente"></a>
-                    <a href="#"><img src="./assets/Compras.svg" alt="icone de compras" class="container-imagem"></a>
-                    <a href="#"><img src="./assets/Usuario.svg" alt="icone de usuarios" class="container-imagem"></a>
-                </div>
+        <div class="container">
+            <a href="#"><img src="./assets/Favoritos.svg" alt="icone de Favoritos"
+                    class="container-imagem container-imagem-transparente"></a>
+            <a href="#"><img src="./assets/Compras.svg" alt="icone de compras" class="container-imagem"></a>
+            <a href="#"><img src="./assets/Usuario.svg" alt="icone de usuarios" class="container-imagem"></a>
+        </div>
     </header>
     <section class="banner">
         <h2 class="banner-titulo">Já sabe por onde começar ?</h2>
@@ -83,6 +98,10 @@
                 <div class="swiper-slide"><img src="./assets/Portugol.svg" alt="imagem de livro sobre Portugol"></div>
                 <div class="swiper-slide"><img src="./assets/Acessibilidade.svg"
                         alt="imagem de livro sobre Acessibilidade"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
 
@@ -201,8 +220,10 @@
     </section>
 
     <section class="contato">
-        <h2 class="contato-titulo">Fique por dentro das novidades!</h2>
-        <p class="contato-texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato-descricao">
+            <h2 class="contato-titulo">Fique por dentro das novidades!</h2>
+            <p class="contato-texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" class="contato-email" placeholder="Cadastre seu e-mail">
     </section>
 

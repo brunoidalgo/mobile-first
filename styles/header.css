@@ -72,6 +72,11 @@
     display: none;
 }
 
+
+.opcoes-botao:checked~.lista-menu{
+    display: block;
+}
+
 @media screen and (min-width: 1024px) {
     
     .container {
@@ -109,10 +114,13 @@
         text-transform: uppercase;
     }
 
-    .opcoes-link {
-        text-decoration: none;
-        color: var(--preto);
-        font-weight: 500;
+    .opcoes-botao:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opcoes-botao {
+        display: none;
     }
 
     .cabecalho-menu-hamburguer {

@@ -34,11 +34,21 @@
 
 
 @media screen and (min-width: 1024px) {
-    .topicos {
-        padding: 2em 1em 8em 1em;
+
+    .topicos-titulo {
+        font-size: 2.2em;
     }
 
     .topicos-link  {
-        padding: 2em;
+        font-size: 1.8em;
+    }
+
+    .topicos-item {
+        margin: 4em 0;
+    }
+
+    .topicos-lista {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
