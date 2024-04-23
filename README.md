@@ -1,9 +1,10 @@
-<p align="center"> <img src="https://github.com/MonicaHillman/aluraplus/blob/aula04/img/Logo.png?raw=true" alt="Logo da alura plus"> </p>
+<p align="center"> <img src="./assets/Logo.svg" alt="Logo da alura plus"> </p>
 <p align="center">Um site para divulgação da Alura Books, uma plataforma de livros online com os conteúdos educacionais da Alura.</p>
 
 ## Tecnologias
 * HTML
 * CSS
+* JavScript
 
 ## Aprendizados
 
@@ -45,4 +46,4 @@
 * Pseudo-classes no CSS: hover e active.
 
 ## Screenshots
-![Screenshot da tela inicial do Alura Plus](https://imgur.com/nKUf7MK.png)
+![Screenshot da tela inicial do Alura Plus](./img/AluraBooks.png)
