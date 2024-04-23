@@ -8,7 +8,7 @@
 
 ## Aprendizados
 
-### Aula 1:
+### Aula 1
 * Acessar e visualizar o projeto no Figma;
 * Captar informações como as cores dos elementos no Figma;
 * Começar a construir um projeto HTML;
@@ -17,7 +17,7 @@
 * Aplicar o reset.css.
 
 
-### Aula 2:
+### Aula 2
 * Baixar imagens no Figma;
 * Construir um header;
 * Transformar elementos em flex-containers e flex-items com FlexBox;
