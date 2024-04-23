@@ -4,7 +4,7 @@
 ## Tecnologias
 * HTML
 * CSS
-* JavScript
+* JavaScript
 
 ## Aprendizados
 
