@@ -113,4 +113,8 @@
         color: var(--preto);
         font-weight: 500;
     }
+
+    .cabecalho-menu-hamburguer {
+        display: none;
+    }
 }
