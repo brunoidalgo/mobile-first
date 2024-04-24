@@ -38,6 +38,11 @@
     background-position: 1em;
 }
 
+.container-texto {
+    display: none;
+}
+
+
 @media screen and (min-width:1024px) {
         .contato {
             display: flex;
@@ -73,5 +78,9 @@
 
     .contato-email  {
         width: 20%;
+    }
+
+    .container-texto {
+        display: block;
     }
 }

@@ -37,11 +37,8 @@
 
 ### Aula 4
 
-* Usar flexbox e seu significado;
-* Flex-containers, flex-itens, flex-direction;
-* A tag footer;
-* Colocar o conhecimento em prática;
-* Pseudo-classes no CSS: hover e active.
+* Aplicar estilos com media queries diferentes;
+* Usar estilos diferentes no mesmo elemento com pseudo-classes.
 
 ## Screenshots
 ![Screenshot da tela inicial do Alura Plus](./img/AluraBooks.png)
