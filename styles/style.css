@@ -20,6 +20,7 @@
     --azul-escuro:#002F52;
     --azul-degrade:linear-gradient(97.54deg, #002F52, #326589 165.37%);
     --preto:#000000;
+    --cinza:#858585;
 }
 
 body {

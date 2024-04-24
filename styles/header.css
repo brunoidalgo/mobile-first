@@ -21,7 +21,7 @@
 }
 
 .container-imagem {
-    padding: 1em;
+    padding: 1.5em;
 }
 
 .lista-menu {
@@ -58,6 +58,7 @@
     background-clip: text;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 1em;
 }
 
 .container-botao {
@@ -112,6 +113,7 @@
     .opcoes-item {
         padding: 0 1em;
         text-transform: uppercase;
+        font-weight: 500;
     }
 
     .opcoes-botao:checked~.lista-menu {
@@ -125,5 +127,47 @@
 
     .cabecalho-menu-hamburguer {
         display: none;
+    }
+}
+
+.cabecalho-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (min-width:1728px) {
+
+    .container-titulo {
+        font-size: 2.5em;
+    }
+
+    .cabecalho {
+        padding: 1em;
+    }
+
+    .cabecalho-desktop {
+        padding-left: 3em;
+    }
+
+    .lista-menu-link {
+        font-size: 1.5em;
+    }
+
+    .opcoes-item {
+        font-size: 1.5em;
+    }
+
+    .container-container-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .container-texto {
+        font-family: var(--fonte-poppins);
+        font-weight: 500;
+        font-size: 1.4em;
+        color: #000000;
     }
 }

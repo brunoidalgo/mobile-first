@@ -52,3 +52,25 @@
         flex-wrap: wrap;
     }
 }
+
+
+@media screen and (min-width: 1728px) {
+
+    .topicos {
+        padding: 6em;
+    }
+
+    .topicos-titulo {
+        font-size: 2.2em;
+    }
+
+    .topicos-item {
+        margin: 3em 0.5em;
+    }
+
+    .topicos-lista {
+        margin: 0 20em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

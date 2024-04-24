@@ -92,3 +92,42 @@
         top: 60%;
     }
 }
+
+@media screen and (min-width:1728px) {
+    
+    .carrosel-container {
+        display: flex;
+        gap: 6em;
+        margin: 8em;
+    }
+    
+    .carrossel-titulo {
+        padding: 1.8em 0 0.5em 0;
+        font-size: 2.5em;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .descricao {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right:4em ;
+    }
+
+    .descricao-titulo {
+        font-size:2em;
+    }
+
+    .descricao-titulo-livro {
+        font-size:1.2em;
+        padding: 0.5em 0;
+    }
+
+    .descricao-texto {
+        font-size:1.2em;
+        padding-bottom: 4em;
+    }
+}
