@@ -21,7 +21,7 @@
     color: var(--branco);
     background-color: transparent;
     padding: 1.2em;
-    width: 80%;
+    width: 100%;
 }
 
 .banner-pesquisa::placeholder {
