@@ -40,5 +40,13 @@
 * Aplicar estilos com media queries diferentes;
 * Usar estilos diferentes no mesmo elemento com pseudo-classes.
 
+### Aula 5
+
+* Construir um repositório com o código do curso;
+* Escrever commits;
+* O que é deploy;
+* Fazer deploy no Github Pages;
+* Abrir o projeto em outros dispositivos.
+
 ## Screenshots
 ![Screenshot da tela inicial do Alura Plus](./img/AluraBooks.png)
